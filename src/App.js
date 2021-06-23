@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+// NOTE: calling concepts here
+// REVIEW: useState
+// import Setup from './concepts/useState/1-error-example';
+import Setup from './concepts/useState/2-useState-Basic';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      {/* NOTE: calling setup component from concepts i'm learning */}
+      <Setup />
     </div>
   );
 }
