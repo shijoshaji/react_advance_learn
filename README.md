@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## WIIIFM - What is in it for me
+
+Well, this basically contains the course i am going through in youtube [Click](https://youtu.be/4UZrsTqkcW4)
+
+Mainly i create concept wise for self learn
+
+## Where to look?
+
+Please see the folder `concepts` under `src` it has concepts am learning
+
 ## Available Scripts
 
 In the project directory, you can run:
