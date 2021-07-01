@@ -12,6 +12,19 @@ const UseStateCounter = () => {
       setValue(value - 1);
     }
   };
+  const delayTime = () => {
+    setTimeout(() => {
+      /** NOTE: after 5 sec we see the update, even if we click the button multiple times it will still
+       * take the recent value and update since there was a timedelay
+       * eg: we click 3 times expecting count to be 3, but reality is its just 1 since it was 0 before the click
+       * setValue(value+1);
+       * To over come this we use functional update
+       */
+      setValue((prevValue) => {
+        return prevValue + 1;
+      });
+    }, 2000);
+  };
   return (
     <>
       <section style={{ margin: '4rem 0' }}>
@@ -25,6 +38,11 @@ const UseStateCounter = () => {
         </button>
         <button className="btn" onClick={() => action('-')}>
           Decrease (-)
+        </button>
+      </section>
+      <section>
+        <button className="btn" onClick={delayTime}>
+          Delay Concept
         </button>
       </section>
     </>
