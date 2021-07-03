@@ -19,7 +19,11 @@ import React from 'react';
 // import Setup from './concepts/conditional-rendering/2-multiple-returns';
 // import Setup from './concepts/conditional-rendering/3-Short-Circuit-Basic';
 // import Setup from './concepts/conditional-rendering/4-Short-Circuit';
-import Setup from './concepts/conditional-rendering/5-Show-Hide';
+// import Setup from './concepts/conditional-rendering/5-Show-Hide';
+
+// REVIEW: Forms
+// import Setup from './concepts/Forms/1-Controlled-Inputs';
+import Setup from './concepts/Forms/2-Multiple-Inputs';
 
 function App() {
   return (

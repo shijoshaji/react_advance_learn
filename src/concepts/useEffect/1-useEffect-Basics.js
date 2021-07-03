@@ -1,5 +1,5 @@
 /**
- * NOTE:
+ * REVIEW:
  * By default runs after every re-render
  * cleanup function
  * second paramenter
