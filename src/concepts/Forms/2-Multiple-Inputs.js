@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
 /**REVIEW:
- * refactor of controlled inputs
+ * refactor code of controlled inputs
  */
 
 const MultipleInput = () => {
@@ -48,7 +48,7 @@ const MultipleInput = () => {
       <article>
         {/* NOTE: Submit form can be done on form via onSubmit={submitHandler} or 
         via button onClick={submitHandler} */}
-        <form className="form">
+        <form className="form" onSubmit={handleSubmit}>
           <div className="form-control">
             <label htmlFor="fName">First Name:</label>
             <input
@@ -99,15 +99,15 @@ const MultipleInput = () => {
               onChange={handleChange}
             />
           </div>
-          <button type="submit" className="btn" onClick={handleSubmit}>
+          <button type="submit" className="btn">
             Submit
           </button>
         </form>
       </article>
       <section>
         <h2>List of people Added</h2>
-        {people.map((person) => {
-          const { id, firstName, lastName, email, age } = person;
+        {people.map((each_person) => {
+          const { id, firstName, lastName, email, age } = each_person;
           return (
             <div className="item" key={id}>
               <h5>
