@@ -29,7 +29,6 @@ const UseRefBasic = () => {
       <form action="" className="form" onSubmit={handleSumbit}>
         <div>
           <input type="text" placeholder="Enter First Name" required ref={refContainer} />
-          <input type="text" placeholder="Enter Last Name" required ref={refContainer} />
           <button type="submit">Submit</button>
         </div>
       </form>
