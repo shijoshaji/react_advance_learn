@@ -26,7 +26,11 @@ import React from 'react';
 // import Setup from './concepts/Forms/2-Multiple-Inputs';
 
 // REVIEW: useRef
-import Setup from './concepts/useRef/1-useRef-Basic';
+// import Setup from './concepts/useRef/1-useRef-Basic';
+
+// REVIEW: useReducer
+// NOTE:here we dint specify the file unlike others, because in that folder we have index.js which gets called automatically
+import Setup from './concepts/useReducer/';
 
 function App() {
   return (
