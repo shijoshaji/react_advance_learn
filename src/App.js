@@ -36,7 +36,13 @@ import React from 'react';
 // import Setup from './concepts/prop-drilling/propdrills'
 
 // REVIEW: useContext -> overcome prop drill conccept
-import Setup from './concepts/useContext/1-useContext-Basic';
+// import Setup from './concepts/useContext/1-useContext-Basic';
+
+// REVIEW: custom-hooks
+// import Setup from './concepts/custom-hooks/1-fetch-example';
+
+// REVIEW: props types
+import Setup from './concepts/props-types';
 
 function App() {
   return (
