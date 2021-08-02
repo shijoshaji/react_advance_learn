@@ -30,7 +30,13 @@ import React from 'react';
 
 // REVIEW: useReducer
 // NOTE:here we dint specify the file unlike others, because in that folder we have index.js which gets called automatically
-import Setup from './concepts/useReducer/';
+//import Setup from './concepts/useReducer/';
+
+// REVIEW: Prop Drilling
+// import Setup from './concepts/prop-drilling/propdrills'
+
+// REVIEW: useContext -> overcome prop drill conccept
+import Setup from './concepts/useContext/1-useContext-Basic';
 
 function App() {
   return (
