@@ -42,7 +42,13 @@ import React from 'react';
 // import Setup from './concepts/custom-hooks/1-fetch-example';
 
 // REVIEW: props types
-import Setup from './concepts/props-types';
+// import Setup from './concepts/props-types';
+
+// REVIEW: React Router
+// import Setup from './concepts/react-router/';
+
+// REVIEW:  usememo
+import Setup from './concepts/memo-useMemo-useCallback';
 
 function App() {
   return (
